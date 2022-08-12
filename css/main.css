@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Snell Roundhand, cursive;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    height: calc(100% - (70px));
+}
+
+header, footer {
+    /*background-color: #61D7A4;*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 30px;
+    margin: 0;
+}
