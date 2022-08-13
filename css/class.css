@@ -1,6 +1,5 @@
 .errors {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    /*margin-top: 10px;*/
     margin: 10px 30%;
     background-color: white;
 }
@@ -10,7 +9,7 @@
     margin-left: 20px;
 }
 
-.date {
+.header {
     text-align: center;
 }
 .end_of_error {

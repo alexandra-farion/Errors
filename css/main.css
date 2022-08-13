@@ -13,7 +13,6 @@ main {
 }
 
 header, footer {
-    /*background-color: #61D7A4;*/
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     height: 30px;
     margin: 0;

@@ -2,3 +2,22 @@ p {
     color: #ff0a09;
     padding-left: 10px;
 }
+
+button {
+    border: 2px outset red;
+    background-color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #ff0509;
+    margin-top: 10px;
+    margin-left: 39%;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: white;
+    border: 3px outset red;
+}
