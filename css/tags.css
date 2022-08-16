@@ -3,6 +3,18 @@ p {
     padding-left: 10px;
 }
 
+/*button {*/
+/*    border: 0 outset white;*/
+/*    background-color: white;*/
+/*}*/
+
+/*i {*/
+/*    border: solid red;*/
+/*    border-width: 0 3px 3px 0;*/
+/*    display: inline-block;*/
+/*    padding: 3px;*/
+/*}*/
+
 button {
     border: 2px outset red;
     background-color: white;

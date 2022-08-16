@@ -1,7 +1,9 @@
 .errors {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    margin: 10px 30%;
+    margin: 10px 10%;
     background-color: white;
+    overflow: auto;
+    padding: 5px;
 }
 
 .logo {
@@ -14,4 +16,26 @@
 }
 .end_of_error {
     padding-bottom: 5px;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+.read {
+    /*text-decoration: underline;*/
+    color: #ff0a09;
+}
+
+.triangle1 {
+    border: 8px solid transparent;
+    border-left: 8px solid red;
+    display: inline-block;
+}
+
+.triangle2 {
+    border: 8px solid transparent;
+    border-top: 8px solid red;
+    margin-top: 10px;
+    display: inline-block;
 }
