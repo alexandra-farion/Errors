@@ -6,6 +6,11 @@
     padding: 5px;
 }
 
+.errors_text {
+    color: #ff0a09;
+    padding-left: 10px;
+}
+
 .logo {
     color: #ff0a09;
     margin-left: 20px;
