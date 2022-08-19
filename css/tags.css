@@ -1,30 +1,6 @@
-/*button {*/
-/*    border: 0 outset white;*/
-/*    background-color: white;*/
-/*}*/
-
-/*i {*/
-/*    border: solid red;*/
-/*    border-width: 0 3px 3px 0;*/
-/*    display: inline-block;*/
-/*    padding: 3px;*/
-/*}*/
-
 button {
-    border: 2px outset red;
+    border: 0 outset white;
     background-color: white;
-    height: 40px;
-    width: 130px;
-    border-radius: 5px;
     font-size: 20px;
-    text-align: center;
-    color: #ff0509;
-    margin-top: 10px;
-    margin-left: 45%;
-    margin-bottom: 10px;
 }
 
-button:hover {
-    background-color: white;
-    border: 3px outset red;
-}

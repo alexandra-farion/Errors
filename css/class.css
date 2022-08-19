@@ -28,8 +28,8 @@
 }
 
 .read {
-    /*text-decoration: underline;*/
-    color: #ff0a09;
+    border-bottom: 2px dotted red;
+    color: red;
 }
 
 .triangle1 {

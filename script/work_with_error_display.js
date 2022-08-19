@@ -1,7 +1,7 @@
 resultElement = document.querySelector(".result");
 main = document.querySelector(".content")
 
-let reports_content = ""
+let reports = {}
 
 const xhr = new XMLHttpRequest()
 xhr.open("POST", "http://78.29.33.173:49144/get_mails", true)
@@ -16,14 +16,15 @@ xhr.onload = () => {
                     content += "<p class='errors_text'>" + body[element] + "</p>"
                 }
             } else {
-                reports_content += reportKey + "***" + report[reportKey] + "***"
-                content += "<button class=\"report_content" + "\" id=\"" + reportKey + "\" onclick=\"click_btn(id);\" value='false'>Open</button>"
+                reports[reportKey] = report[reportKey]
+                content += "<button class=\"report_content" + "\" id=\"" + reportKey + "\" onclick=\"click_btn(id);\" value='0'><div class=\"triangle1\"></div><text class=\"read\">Open</text></button>"
+                content += "<div class=\'" + reportKey + "\'></div>"
             }
             main.insertAdjacentHTML('beforeend', "<div class=\"errors\">" +
                 "            <h3 class=\"header\">" + reportKey + "</h3>" + content + "</div>")
 
         }
     }
-    return reports_content
+    return reports
 }
 xhr.send()
